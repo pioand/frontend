@@ -2,8 +2,8 @@ version: '2.4'
 
 services:
   frontend:
-    image: pioand/frontend:2.0
-    container_name: frontend
+    image: pioand/backend2.0
+    container_name: backend
     ports:
       - "5001:5001"
 
